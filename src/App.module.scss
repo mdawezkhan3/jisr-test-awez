@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #070F2C;
+  line-height: 24px;
+  margin: 0;
+}
+
+.dialogTitle {
+  display: flex;
+  align-items: center;
+
+  .warningIcon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border-radius: 50%;
+    background-color: #FEE4E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.crossIcon {
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.modalDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #070F2C;
+  margin-left: 56px;
+  margin: 0 0 0 56px;
+  line-height: 24px;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.backBtn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344054;
+  background-color: #ffffff;
+  border: 1px solid #8d97a6;
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.skipUnclosedPeriodsBtn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #F04438;
+  border: 0;
+  width: 192px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
